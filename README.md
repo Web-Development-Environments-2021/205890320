@@ -3,14 +3,15 @@
 
 <b>
 <pre>
--ID :</b>
- 205890320
+-ID :</b> 205890320
   </pre>
 </br>
 <b>
--Name :</b>
- Liad Nachshon
+ <pre>
+-Name :</b> Liad Nachshon
+ </pre>
 </br>
 <b>
--Link to website :</b>
- https://web-development-environments-2021.github.io/assignment1-liadna1995/
+ <pre>
+-Link to website :</b> https://web-development-environments-2021.github.io/assignment1-liadna1995/
+   </pre>
