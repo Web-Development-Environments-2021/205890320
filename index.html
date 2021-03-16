@@ -3,12 +3,13 @@
 <head>
 <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
-<body id="body" style="background-color:rgb(231, 233, 238);">
-
+<body dir = rtl id="body" style="background-color:rgb(231, 233, 238);">
+  <div id="fb-root"></div>
+  <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v10.0" nonce="sxFaHdWg"></script>
 
 <div class="split right">
-<h1 style=text-align:center;>בואו תכירו אותי</h1>
-<iframe width="100%" height="100%" src="https://www.motke.co.il/"></iframe>
+<h1 style=text-align:center;>אתר לגיל השלישי - Thirdage</h1>
+<iframe width="100%" height="100%" src="https://www.thirdage.co.il/"></iframe>
 </div>
 
 <div class="split left"> 
@@ -43,7 +44,14 @@
 about me
 <p dir = rtl >
   שלום שמי אהרון.
-  אני בן 72 וגר בחולון.
+  <br/>
+  אני בן 72 וגר בחולון. בעל של טובה.
+  <br/>
+  אבא לבתיה, ישראל ואיילת.
+  <br/>
+  סבא לליאור, ליעד, אלמוג, לידור, אופיר , שחר, גל, טל , דביר ואורי.
+  <br/>
+  עד היום הייתי עושה המון ספורט אירובי וחוגי פילאטיס, כיום אני בבידוד עקב הקורונה ומתגעגע לחברה - ובעיקר לנכדיי.
   <br/>
   מידת החיבה שלי לתחביביי השונים:
   <br/>
@@ -124,6 +132,7 @@ my playlist
 <br/>
 give me a like
 <br/>
+<div class="fb-like" data-href="https://www.facebook.com/motke.co.il" data-width="" data-layout="button_count" data-action="like" data-size="large" data-share="false"></div>
 <br/>
 <br/>
 </section>
@@ -192,8 +201,24 @@ ans
 <br/>
 <br/>
 <br/>
-contact me
+צרו קשר עם אהרון
 <br/>
+<div class="leavemessage" id="myForm" dir = rtl>
+  <meta charset=\"UTF-8\">
+
+   <form action="mailto:liady1995@gmail.com" class="form-container" method="GET">
+    <h1>שליחת מייל</h1>
+    <label ><b>כתובת מייל</b></label>
+   </br>
+    <!-- <input name="subject" type="text" placeholder="הזינו את כתובת המייל שלכם.." /> -->
+    <textarea id= mailadd name="subject" dir = rtl placeholder="כתובת מייל הפונה" required></textarea>
+   </br>
+    <label ><b>תוכן ההודעה</b></label>
+    <textarea name="body" dir = rtl placeholder="תוכן ההודעה" required></textarea>
+    <button type="submit" class="btn">שלחו</button>    
+  </form>
+</meta>
+</div>
 <br/>
 <br/>
 </section>
