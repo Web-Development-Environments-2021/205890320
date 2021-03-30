@@ -35,58 +35,17 @@ div p::first-line{
 	color: black;
 }
 
-p {
+p, #qa{
 	background-color:rgb(9, 114, 211);color:white;
 	border: 2px solid powderblue;
 	padding: 30px;
 	margin: 40px;
-  }
+}
 section{
 	padding: 10px;
 	font-family: Arial, Helvetica, sans-serif;
 
 }
-/* .split {
-	height: 100%;
-	width: 50%;
-	position: fixed;
-	z-index: 1;
-	top: 0;
-	overflow-x: hidden;
-	padding-top: 20px;
-} */
-/* .left {
-	left: 0;
-} 
-.right {
-
-	top: 10px;
-	right: 0;
-} */
-/* .meter{
-	background: none;
-	box-shadow: 0 5px 5px -5px #333 inset;
-} */
-
-
-
-
-/* {box-sizing: border-box;} */
-
-/* Button used to open the chat form - fixed at the bottom of the page */
-.open-button {
-  background-color: #555;
-  color: white;
-  padding: 16px 20px;
-  border: none;
-  cursor: pointer;
-  opacity: 0.8;
-  position: fixed;
-  bottom: 23px;
-  right: 28px;
-  width: 280px;
-}
-
 
 /* Add styles to the form container */
 .form-container {
@@ -106,11 +65,11 @@ section{
   min-height: 200px;
 }
 
-#mailadd{
+#subjectmail{
 	min-height: 20px;
 }
 
-/* When the textarea gets focus, do something */
+/* When the textarea gets focus */
 .form-container textarea:focus {
   background-color: #4CAF50;
   outline: none;
@@ -133,13 +92,13 @@ section{
   opacity: 1;
 }
 
-#thanks{
+/* #thanks{
 	margin-top:25%;
 	text-align:center;
-}
+} */
 
-#backtopage{
+/* #backtopage{
 	background-color: #0bb8e4;
 	margin-left:47%;
 	cursor: pointer;
-}
+} */
