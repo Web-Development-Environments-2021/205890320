@@ -45,12 +45,14 @@ p, #qa{
 	padding: 30px;
 	margin: 40px;
 }
+
 /* for 'my photos' */
 #photo{
 	border: 1px solid rgb(221, 221, 221);
 	border-radius: 8px;
 	padding: 5px;
 }
+
 .container {
 	position: relative;
 	width: 50%;
@@ -85,7 +87,7 @@ p, #qa{
  /* txt for photos */ 
   .txt {
 	color: white;
-	font-size: 20px;
+	font-size: 40px;
 	position: absolute;
 	top: 50%;
 	left: 50%;
@@ -97,6 +99,10 @@ section{
 	padding: 10px;
 	font-family: Arial, Helvetica, sans-serif;
 
+}
+
+h1{
+ color:aqua;
 }
 
 /* Add styles to the form container */
@@ -143,3 +149,11 @@ section{
 .form-container .btn:hover, .open-button:hover {
   opacity: 1;
 }
+
+
+
+/* FOR EMOJIS */
+
+  
+  
+  
