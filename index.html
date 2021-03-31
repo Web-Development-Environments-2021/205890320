@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
+
 <link rel="stylesheet" type="text/css" href="style.css" />
+
 </head>
 <body dir = rtl id="body" style="background-color:rgb(231, 233, 238);">
   <div id="fb-root"></div>
@@ -326,19 +328,45 @@
 <div class="leavemessage" id="myForm" dir = rtl>
   <meta charset=\"UTF-8\">
    <form action="mailto:liadnach@post.bgu.ac.il" class="form-container" method="GET">
-    <h2>שליחת מייל</h2>
+    <fieldset>
+    </br>
+      <legend><h2>שליחת מייל:</h2></legend>
     <label ><b>כתובת מייל</b></label>
    </br>
     <textarea id= subjectmail name="subject" dir=rtl placeholder="נושא ההודעה" required></textarea>
    </br>
     <label ><b>תוכן ההודעה</b></label>
     <textarea id = bodymail name="body" dir = rtl placeholder="תוכן ההודעה" required></textarea>
+    <a onclick="CopyToTextarea(this)">&#127752</a>
+    <a onclick="CopyToTextarea(this)">&#127866</a>
+    <a onclick="CopyToTextarea(this)">&#128512</a>
+    <a onclick="CopyToTextarea(this)">&#128513</a>
+    <a onclick="CopyToTextarea(this)">&#128514</a>
+    <a onclick="CopyToTextarea(this)">&#128515</a>
+    <a onclick="CopyToTextarea(this)">&#128516</a>
+    <a onclick="CopyToTextarea(this)">&#128517</a>
+    <a onclick="CopyToTextarea(this)">&#128518</a>
+    <a onclick="CopyToTextarea(this)">&#128519</a>
+    <a onclick="CopyToTextarea(this)">&#128520</a>
+    <a onclick="CopyToTextarea(this)">&#128521</a>
+    <a onclick="CopyToTextarea(this)">&#128522</a>
+    <a onclick="CopyToTextarea(this)">&#128523</a>
+    <a onclick="CopyToTextarea(this)">&#128524</a>
+    <a onclick="CopyToTextarea(this)">&#128525</a>
+    <a onclick="CopyToTextarea(this)">&#128526</a>
+    <a onclick="CopyToTextarea(this)">&#128527</a>
+    <a onclick="CopyToTextarea(this)">&#128528</a>
+    <a onclick="CopyToTextarea(this)">&#128529</a>
+
+    
     <button type="submit" class="btn">שלחו</button>    
+  </fieldset>
   </form>
 </meta>
 </div>
 
 
+<script src="inputEmoji.js"></script>
 
 <script type="text/javascript">
 $(function(){
@@ -353,6 +381,8 @@ $(function(){
     $('#menu').toggle($(this).scrollTop()>1000)
  });​
  </script>
+
+
 
 </body>
 </html>
